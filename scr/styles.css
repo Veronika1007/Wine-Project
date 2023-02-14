@@ -16,13 +16,44 @@ header {
 .content {
   font-size: 22px;
 }
-
+section {
+}
 button {
   padding: 10px;
   border-radius: 6px;
   font-size: 16px;
 }
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../media/vineyard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  color: aliceblue;
+  padding: 40px;
+}
+footer h4 {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
 
+footer a:link,
+a:visited {
+  color: aliceblue;
+}
+.footerContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.github {
+  padding-top: 60px;
+  text-align: center;
+}
 @media (max-width: 800px) {
   header {
     padding: 30px 0;
