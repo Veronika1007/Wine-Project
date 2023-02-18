@@ -66,17 +66,60 @@ h4 {
   max-width: 900px;
   margin: 0 auto;
 }
+.grid-3col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .section2 {
   background-color: rgb(245, 242, 242);
   padding: 20px;
 }
 img {
   max-width: 500px;
+  margin: auto;
+  border-radius: 6px;
 }
 
 .section3 {
   background-color: rgb(243, 238, 238);
   padding: 20px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.card-grid {
+  background-color: white;
+  border-style: double;
+  border-radius: 6px;
+}
+.grape-style {
+  padding: 0px 20px;
+}
+.card-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.card-image {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}
+img {
+  transition: all 150ms ease-in-out;
+}
+img:hover {
+  transform: scale(1.2);
+  filter: opacity(80%);
 }
 .section4 {
   background-color: rgb(245, 242, 242);
@@ -95,6 +138,7 @@ button {
   border-radius: 6px;
   font-size: 16px;
 }
+
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../media/vineyard.jpg");
@@ -155,4 +199,10 @@ footer a:visited {
     grid-template-columns: 1fr;
     grid-gap: 0px;
   }
-} ;
+}
+@media (max-width: 1000px) {
+  .card {
+    max-width: 800px;
+    grid-template-columns: 1fr;
+  }
+}
