@@ -17,6 +17,79 @@ header {
   font-size: 22px;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.section1 {
+  background-color: rgb(243, 238, 238);
+  padding: 20px;
+}
+section h2,
+h3,
+h4 {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.section2 {
+  background-color: rgb(245, 242, 242);
+  padding: 20px;
+}
+img {
+  max-width: 500px;
+}
+
+.section3 {
+  background-color: rgb(243, 238, 238);
+  padding: 20px;
+}
+.section4 {
+  background-color: rgb(245, 242, 242);
+  padding: 20px;
+}
+.section5 {
+  background-color: rgb(243, 238, 238);
+  padding: 10px;
+}
+.ref {
+  text-decoration: underline;
+}
+
 button {
   padding: 10px;
   border-radius: 6px;
@@ -38,8 +111,11 @@ footer ul {
   text-align: center;
 }
 
-footer a:link,
-a:visited {
+footer a:link {
+  color: aliceblue;
+}
+
+footer a:visited {
   color: aliceblue;
 }
 .footerContainer {
@@ -66,5 +142,17 @@ a:visited {
 
   button {
     font-size: 12px;
+  }
+  .grid-2-col {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  .grid-3-col {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  .grid-col-3 {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
   }
 } ;
