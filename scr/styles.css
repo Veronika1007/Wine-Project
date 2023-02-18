@@ -29,11 +29,9 @@ footer {
   background-repeat: no-repeat;
   max-width: 100%;
   color: aliceblue;
-  padding: 40px;
-}
-footer h4 {
   text-align: center;
 }
+
 footer ul {
   list-style: none;
   padding: 0;
@@ -50,7 +48,7 @@ a:visited {
 }
 
 .github {
-  padding-top: 60px;
+  padding: 20px;
   text-align: center;
 }
 @media (max-width: 800px) {
