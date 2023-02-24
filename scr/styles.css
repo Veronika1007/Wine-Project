@@ -52,6 +52,9 @@ h4 {
   background-color: rgb(243, 238, 238);
   padding: 20px;
 }
+.section1iFrame {
+  width: 500px;
+}
 
 .grid-2-col {
   display: grid;
@@ -221,6 +224,10 @@ footer a:visited {
 
   img {
     max-width: 60%;
+  }
+
+  .section1iFrame {
+    width: 70%;
   }
 
   .card-image {
